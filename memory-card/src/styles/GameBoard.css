@@ -1,0 +1,16 @@
+.game-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.board-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* flex-wrap: wrap; */
+    gap: 10px;
+    /* justify-content: ; */
+    justify-content: center;
+    /* margin-top: 20px; */
+}
